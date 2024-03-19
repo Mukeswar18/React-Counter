@@ -4,8 +4,9 @@ import './Counter.css';
 
 export default function Counter(){
     var [Value,setValue]=useState(0);
-    //
+    //useState-HOOK
     function plus(){
+    
         setValue(++Value);
 
     }
