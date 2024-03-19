@@ -3,14 +3,14 @@ import { useState } from 'react';
 import './Counter.css';
 
 export default function Counter(){
-    var [Value,setCounterValue]=useState(0);
+    var [Value,setValue]=useState(0);
     //
     function plus(){
-        setCounterValue(++Value);
+        setValue(++Value);
 
     }
     function minus(){
-      setCounterValue(--Value);
+      setValue(--Value);
 
     }
     return (
